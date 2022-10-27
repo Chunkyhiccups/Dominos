@@ -116,13 +116,13 @@ function ExtraAbilityBar:AddLayoutPanel(menu)
 end
 
 function ExtraAbilityBar:ShowBlizzardTexture(show)
-    self.sets.hideBlizzardTeture = not show
+    self.sets.hideBlizzardTexture = not show
 
     self:UpdateShowBlizzardTexture()
 end
 
 function ExtraAbilityBar:ShowingBlizzardTexture()
-    return not self.sets.hideBlizzardTeture
+    return not self.sets.hideBlizzardTexture
 end
 
 function ExtraAbilityBar:UpdateShowBlizzardTexture()
